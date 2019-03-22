@@ -1,0 +1,31 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	/*margin-left: 11%;
+	margin-right: 50%;*/
+	max-width: 900px;
+	margin:auto;
+}
+
+img {max-width: 100%;}
+
+.image {
+	margin: 80px;
+	padding: 10px;
+	border: 1px solid red;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+	.image img {
+		/*max-height: 70vh;*/
+	}
+
+.ingredients {
+	margin: 80px;
+	padding: 2px;
+
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
