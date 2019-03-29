@@ -14,6 +14,7 @@ Projet cuisine code
 	<body>
 		<div class="image">
            <img src="img/Crumbule_01.jpg">
+	   <img src="img/Crumbule_02.jpg">
 	    </div>
  		   <div class="ingredients">
 			   <h1 class="titre">Crumbule</h1>
