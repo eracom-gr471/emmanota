@@ -6,12 +6,20 @@ body {
 	margin:auto;
 }
 
+h3 {
+	font-size: 12pt;
+	height: 10px;
+}
+
 img {max-width: 100%;}
+
+.titre {
+	height: 10px;
+}
 
 .image {
 	margin: 80px;
 	padding: 10px;
-	border: 1px solid red;
 	text-align: center;
 	box-sizing: border-box;
 }
@@ -28,4 +36,25 @@ img {max-width: 100%;}
 
 h1, h2, h3 {
 	text-transform: uppercase;
+}
+
+
+/* Grille de mise en page */
+
+@media screen and (min-width: 1000px) {
+
+  .ingredients {
+	box-sizing: border-box;
+	  float: right;
+	  width: 70%;
+	  margin: 0;
+	  padding: 0;
+  }
+
+  .ingredients.liste {
+	  float:left;
+	  width: 30%;
+	  padding-right: 2em;
+  }
+
 }
