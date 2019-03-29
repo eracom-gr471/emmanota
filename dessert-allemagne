@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>recette</title>
+		<link href="style.css" rel="stylesheet">
+	   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style>
+
+		</style>
+	</head>
+	<body>
+		<div class="image">
+           <img src="img/boule.jpg">
+	    </div>
+ 		   <div class="ingredients">
+			   <h1 class="titre">Hot-dog</h1>
+               <h2 class="soustitre">Préparation</h2>
+
+			<h3>Étape 1</h3>
+			<p>Faire chauffer le lait à petit feu. Verser la levure dans le lait tiède. Laisser reposer quelques minutes.</p>
+
+			<h3>Étape 2</h3>
+			<p>Mélanger la farine, la sucre, le sel, les œufs et le beurre ramolli. Verser le lait dans le mélange. Bien malaxer.</p>
+
+			<h3>Étape 3</h3>
+			<p>Rassembler le tout en un pâte lisse. Rajouter un peu de farine si la pâte est trop collante. Couvrir d'un torchon et laisser reposer au moins 2 h.</p>
+
+			<h3>Étape 4</h3>
+			<p>Fariner un plan de travail. Étaler la pâte sur 2 cm d'épaisseur. A l'aide d'un verre ou d'un petit moule rond, découper des cercles de 5 cm de diamètre.</p>
+
+			<h3>Étape 5</h3>
+			<p>Faire cuire par portion, dans un bain d'huile chaude, en retournant à mi-cuisson. Égoutter les beignets et les rouler dans du sucre-glace, avant qu'ils ne soient refroidis.</p>
+
+			<h3>Étape 6</h3>
+			<p>Dégustez.</p>
+
+
+
+
+			</div>
+
+		   <div class="ingredients liste">
+			   <h2>Ingrédients pour trois personnes</h2>
+
+
+			<li>1kg de farine</li>
+			<li>1/2 litre de lait</li>
+			<li>2 sachets de levure de boulangerie</li>
+			<li>120 g de sucre</li>
+			<li>1 pincée de sel</li>
+			<li>8 jaunes d'oeufs</li>
+			<li>100 g de beurre</li>
+			<li>sucre glace</li>
+		</ul>
+
+
+          </div>
+
+
+
+
+
+
+	</body>
+</html>
