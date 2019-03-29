@@ -3,8 +3,16 @@
 	<head>
 		<link rel="stylesheet" href="style.css">
 		<meta charset="utf-8">
-		<title></title>
-		<style>
+		<title>skeleton test</title>
+		<link rel="stylesheet" href="skeleton.css">
+		<link rel="stylesheet" href="imgrecette.css">
+		<style media="screen">
+			img {max-width: 100%;}
+			h1 {font-size: 60pt;}
+			h2 {font-size: 40pt; display: inline-block; padding: 10px;}
+			.container {margin-top: 30px;}
+			div div div {padding-top: 20px;}
+
 			.liens {
 				text-align: right;
 				font-size: 1.1em;
@@ -25,11 +33,51 @@
 	</head>
 	<body>
 		<nav class="liens">
-			<a href="index.html">Accueils</a>
-			<a href="Pays.html">Pays</a>
-			<a href="Plats.html">Plats</a>
-			<a href="plats.html" class="active">Desserts</a>
-			<a href="Recettes.html">Recettes</a>
+			<a href="index.html">Accueil</a>
+			<a href="pays.html">Pays</a>
+			<a href="plats.html">Plats</a>
+			<a href="desserts.html" class="active">Desserts</a>
+			<a href="recettes.html">Recettes</a>
 		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="four columns"><img src="marshmallows.jpg"><br> Pologne Text</div>
+				<div class="four columns"><img src="marshmallows.jpg"><br> Espagne</div>
+				<div class="four columns"><img src="marshmallows.jpg"><br> France</div>
+			</div>
+			<div class="row">
+				<div class="four columns"><img src="marshmallows.jpg"><br> Italie</div>
+				<div class="four columns"><img src="marshmallows.jpg"><br> Suisse</div>
+				<div class="four columns"><img src="marshmallows.jpg"><br> Vietnam</div>
+			</div>
+			<div class="row">
+				<div class="four columns"><img src="marshmallows.jpg"><br> Russe</div>
+				<div class="four columns"><img src="marshmallows.jpg"><br> Angleterre</div>
+				<div class="four columns">
+					<img src="marshmallows.jpg"><br> Allemand</div>
+			</div>
+			<div class="row">
+				<div class="four columns"><img src="marshmallows.jpg"><br> Pérou</div>
+				<div class="four columns"><img src="marshmallows.jpg"><br> Albanie</div>
+				<div class="four columns">
+					<a href="plat-bresil.html"><img src="marshmallows.jpg"></a>
+
+					<div class="legend">
+
+						<p>Brésil<br>
+						durée 15 min</p>
+
+						<p>5 personnes<br>
+							facile<br>
+
+						</p>
+
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
