@@ -1,0 +1,8 @@
+.legend {display: flex;
+	flex-direction: row;
+
+
+}
+.legend p{
+	width: 50%
+}
