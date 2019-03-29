@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>recette</title>
+		<link href="style.css" rel="stylesheet">
+	   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style>
+
+		</style>
+	</head>
+	<body>
+		<div class="ingredients titre">
+			<h1 class="titre">Croutte au champignion</h1>
+		</div>
+		<div class="image">
+           <img src="img/tami.jpg">
+	    </div>
+ 		   <div class="ingredients">
+               <h2 class="soustitre">Préparation</h2>
+
+			<h3>Étape 1</h3>
+			<p>Nettoyer tous les champignons, ne pas les passer sous l'eau. Couper les pieds. Couper les champignons de Paris en 2 ou 3 pour que les morceaux gardent une certaine épaisseur.</p>
+
+			<h3>Étape 2</h3>
+			<p>Hacher finement les échalotes et l'ail. Dans une grande poêle haute, faire fondre un bon morceau de beurre et faire revenir échalotes et ail une à deux minutes. Mélanger. Poivrer. Cuire ainsi sur feu moyen-vif environ 15 minutes jusqu'à ce qu'ils aient rendu toute leur eau</p>
+
+			<h3>Étape 3</h3>
+			<p>Diluer la moutarde avec une fourchette dans le vin blanc. Lorsque les champignons ont rendu toute leur eau, saupoudrer avec la farine et bien mélanger jusqu'à ce qu'on ne la voie plus. Ajouter alors le vin blanc avec la moutarde et le cube de bouillon. Laisser réduire 2 à 3 minutes. Puis ajouter 2dl d'eau. Ajouter une bonne pincée de paprika. Cuire à feu doux une quinzaine de minutes.</p>
+
+			<h3>Étape 4</h3>
+			<p>Hacher le persil. Ajouter la crème. Laisser mijoter sur feu doux quelques minutes et ajouter le persil haché. Rectifier l'assaisonnement (saler). Si la sauce vous paraît trop liquide pour napper correctement les tranches de pain, diluer une cas de fécule avec une fourchette dans un fond de crème ou d'eau et ajouter. Laisser la sauce sur feu très doux.</p>
+
+			<h3>Étape 5</h3>
+			<p>Parallèlement, faire fondre un bon morceau de beurre dans une poêle. Déposer les tranches de pain et sur feu moyen, laisser cuire quelques minutes de chaque côté. Surveiller, pour que les tranches ne noircissent pas. Elles doivent juste dorer et rester moelleuses. Recouvrir les tranches de pain avec la sauce, parsemer d'un peu de persil  et déguster avec une salade verte.</p>
+
+
+
+
+
+			</div>
+
+		   <div class="ingredients liste">
+			   <h2>Ingrédients</h2>
+
+		<ul>
+			<li>2 tranches de pain blanc par personne</li>
+			<li>30g de beurre (pour dorer les tranches de pain)</li>
+			<li>300g de champignons de Paris blanc, frais et entiers</li>
+			<li>300g de champignons de Paris bruns, frais et entiers</li>
+			<li>400g de chanterelles fraîches</li>
+			<li>250g de pleurotes</li>
+			<li>2 grosses échalotes</li>
+			<li>2 belles gousse d'ail</li>
+			<li>sel et poivre, paprika</li>
+			<li>2 grosses tas de farine</li>
+			<li>3dl de vin blanc</li>
+			<li>1 tas de moutarde moyenne à forte</li>
+			<li>1 cube de bouillon de volaille ou de légumes</li>
+			<li>2dl d'eau</li>
+			<li>20g de persil</li>
+			<li>5dl de crème entière</li>
+			<li>fécule (si la sauce à la fin ne vous paraît pas assez épaisse)</li>
+		</ul>
+
+
+
+          </div>
+
+
+
+
+
+
+	</body>
+</html>
