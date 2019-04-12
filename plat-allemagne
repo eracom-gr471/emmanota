@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>recette</title>
+		<link href="style.css" rel="stylesheet">
+	   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style>
+
+		</style>
+	</head>
+	<body>
+		<div class="image">
+           <img src="img/hot.jpg">
+	    </div>
+ 		   <div class="ingredients">
+			   <h1 class="titre">Hot-dog</h1>
+               <h2 class="soustitre">Préparation</h2>
+
+			<h3>Étape 1</h3>
+			<p>Faites cuire les saucisses 3 minutes dans de l'eau bouillante.</p>
+
+			<h3>Étape 2</h3>
+			<p>Coupez votre baguette en 3 et ouvrez les en deux</p>
+
+			<h3>Étape 3</h3>
+			<p>placez deux tranches de cheddar dans chaque tranche et mettez les au four jusqu'a ce que le fromage soit fondu.</p>
+
+			<h3>Étape 4</h3>
+			<p>Mettez votre saucisse dans le pain et ajoutez le ketchup et la moutarde comme il vous plait.</p>
+
+			<h3>Étape 5</h3>
+			<p>Ajoutez les tranches de concombres et de tomates</p>
+
+			<h3>Étape 6</h3>
+			<p>Dégustez.</p>
+
+
+
+
+			</div>
+
+		   <div class="ingredients liste">
+			   <h2>Ingrédients pour trois personnes</h2>
+
+
+			<li>1 baguette</li>
+			<li>3 saucisses</li>
+			<li>3 mini concombres</li>
+			<li>des petites tomates</li>
+			<li>cheddar</li>
+			<li>Ketchup</li>
+			<li>moutarde</li>
+		</ul>
+
+
+          </div>
+
+
+
+
+
+
+	</body>
+</html>
