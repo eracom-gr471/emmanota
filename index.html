@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+		<title>Accueil</title>
+		<style>
+		body {
+			margin: 0px;
+		}
+		.liens {
+			text-align: right;
+			font-size: 1.1em;
+		}
+
+		.liens a {
+			text-decoration: none;
+			color: black;
+			margin-left: 1em;
+		}
+
+		.active {
+			font-weight: bold;
+
+		}
+
+
+		.accueil {
+			display: flex;
+			flex-direction: row;
+			text-align: center;
+			height: 100vh;
+			width: 100%;
+		}
+
+		.menu {
+			width: 50%;
+			height: 100%;
+			display: block;
+			background-image: url("img/menu.jpg");
+		}
+
+		.dessert {
+			width: 50%;
+			height: 100%;
+			display: block;
+			background-image: url("img/dessert.jpg");
+		}
+
+		.menu,.dessert {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+			background-size: cover;
+		}
+
+		a {
+			color: white;
+			text-decoration: none;
+		}
+
+		.txt {
+			margin: auto;
+			background-color: black;
+			padding: 20px;
+		}
+
+		</style>
+	</head>
+	<body onload="shuffle(nombres)">
+		<nav class="liens">
+			<a href="index.html">Accueil</a>
+			<a href="pays.html">Pays</a>
+			<a href="plats.html" class="active">Plats</a>
+			<a href="desserts.html">Desserts</a>
+			<a href="recettes.html">Recettes</a>
+		</nav>
+		<div class="accueil">
+			<a class="img menu">
+				<p  id="resultat" class="txt tmenu">un plat principal</p>
+			</a>
+			<a class="img dessert">
+				<p  class="txt tdessert">un dessert</p>
+			</a>
+		</div>
+		<script>
+		var nombres = [ 'index.html', 'https://www.w3schools.com/jsref/jsref_random.asp', 'https://github.com/oblique-strategies/oblique-strategies.github.io/blob/master/javascript/javascript.js' ];
+
+		function shuffle(a) {
+			for (let i = a.length; i; i--) {
+				let j = Math.floor(Math.random() * i);
+				[a[i - 1], a[j]] = [a[j], a[i - 1]];
+			}
+			// sortir le premier élément du tableau, et l'inscrire dans #resultat
+			var resultat = document.getElementById('resultat');
+			resultat.innerHTML = '<a href="' + a[0] + '">un plat principal</a>';      //  cards[cardNumber][1];
+		}
+		</script>
+	</body>
+</html>
